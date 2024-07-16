@@ -23,13 +23,13 @@ document.addEventListener('click',(e) => {
 
     const x= e.clientX;
     const y= e.clientY;
-    console.log(x + " " + y);
+    // console.log(x + " " + y);
 
     const ran=Math.random();
     const radius = Math.min(window.innerHeight,window.innerWidth)/2*ran;
 
     arr.push({x,y,radius});
-    console.log(arr);
+    // console.log(arr);
 
     const el =document.createElement('div');
     el.className='circle';
